@@ -2,7 +2,7 @@
   "name": "car-rental",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/yuvrajinbhakti/Care-Car-Rental-Website.git",
+  "homepage": "https://github.com/yuvrajinbhakti/Care-Car-Rental-Website.git",
   "dependencies": {
     "@tabler/icons-react": "^2.33.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,7 +13,7 @@
     "react-datepicker": "^4.10.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -dbuild"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
